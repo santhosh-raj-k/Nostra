@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--section1-->
+    <nav class="site-header">
+        <div>
+            <h1 class="logo">Nostra</h1>
+        </div>
+
+        <div class="menu-toggle" id="three">
+            <i class="fa-solid fa-bars fa-xl"></i>
+        </div>
+
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#new-arrivals">New Arrival</a></li>
+                <li><a href="index.html#most-wanted">Most Wanted</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--side navbar-->
+    <div id="four" class="side-menu">
+        <i id="five" class="fa-solid fa-x side-menu__close"></i>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#new-arrivals">New Arrival</a></li>
+            <li><a href="index.html#most-wanted">Most Wanted</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!--section 2-->
+    <div class="contact-wrap">
+        <section class="contact-card">
+            <div class="contact-card__inner">
+                <h2 class="contact-card__title">Contact Us</h2>
+
+                <form action="#" class="contact-form">
+
+                    <div>
+                        <label for="subject" class="contact-form__label">Name :</label>
+                        <input type="text" id="subject" class="field field--text" required>
+                    </div>
+
+                    <div>
+                        <label for="email" class="contact-form__label">Your email :</label>
+                        <input type="email" id="email" class="field field--email" required>
+                    </div>
+
+                    <div>
+                        <label for="message" class="contact-form__label">Message :</label>
+                        <textarea id="message" rows="6" class="field field--message"></textarea>
+                    </div>
+
+                    <button id="seven" type="submit" class="btn-send">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!--section3-->
+    <section class="newsletter">
+        <h1 class="newsletter__title">Join Our News Letter</h1>
+        <p class="newsletter__text">Signup for our email newspaper to get exclusive
+            discounts, updates, and more</p>
+        <input type="email">
+        <button class="btn-subscribe">
+            Subscribe <i class="fa-solid fa-arrow-right-long fa-xs"></i>
+        </button>
+    </section>
+
+    <!--section4-->
+    <section class="footer">
+        <h1 class="footer__title">Nostra</h1>
+        <p class="footer__text">The Standard chunk of Lorem ipsum used since the 1500s is
+            reprodused below for those interest</p>
+        <div class="footer__social">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+        <p class="footer__copy">@ 2023 Nostra.com</p>
+    </section>
+
+    <script src="contact.js"></script>
+</body>
+
+</html>
+

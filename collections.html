@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--section1-->
+    <div id="one" class="announcement">
+        <h1 class="announcement__text">
+            Sign Up and
+            <span class="bold">GET 20% OFF</span>
+            for your first Order
+        </h1>
+        <i id="two" class="fa-solid fa-x fa-xs announcement__close"></i>
+    </div>
+
+    <!--section2-->
+    <nav class="site-header">
+        <div>
+            <h1 class="logo">Nostra</h1>
+        </div>
+
+        <div class="menu-toggle" id="three">
+            <i class="fa-solid fa-bars fa-xl"></i>
+        </div>
+
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#new-arrivals">New Arrival</a></li>
+                <li><a href="index.html#most-wanted">Most Wanted</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--side navbar-->
+    <div id="four" class="side-menu side-menu--half">
+        <i id="five" class="fa-solid fa-x side-menu__close"></i>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#new-arrivals">New Arrival</a></li>
+            <li><a href="index.html#most-wanted">Most Wanted</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!--Section 3-->
+    <div class="shop">
+
+        <!--leftside-->
+        <aside class="filters">
+
+            <h1 class="filters__title filters__title--spaced">Category</h1>
+            <div class="filters__list filters__list--categories">
+                <label class="filter-option">
+                    <input type="checkbox" value="formals" class="six">
+                    <p>Formals</p>
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox" value="casuals" class="six">
+                    <p>Casuals</p>
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox" value="tshirts" class="six">
+                    <p>T-Shirts</p>
+                </label>
+            </div>
+
+            <h1 class="filters__title">Colors</h1>
+            <div class="filters__list filters__list--colors">
+                <label class="filter-option">
+                    <input type="checkbox" value="white" class="six">
+                    <p>White</p>
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox" value="blue" class="six">
+                    <p>Blue</p>
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox" value="black" class="six">
+                    <p>Black</p>
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox" value="yellow" class="six">
+                    <p>Yellow</p>
+                </label>
+            </div>
+
+            <h1 class="filters__title">Arrivals</h1>
+            <div class="filters__list filters__list--arrivals">
+                <label class="filter-option">
+                    <input type="checkbox" value="new" class="six">
+                    <p>New</p>
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox" value="old" class="six">
+                    <p>Old</p>
+                </label>
+            </div>
+
+        </aside>
+
+        <!--rightside-->
+        <main>
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <i class="fa-brands fa-sistrix fa-xl search__icon"></i>
+            </div>
+
+            <div class="products">
+                <div class="seven" data-occasion="formals" data-color="white" data-arrivals="new">
+                    <img src="./img/p22.webp" alt="">
+                    <h1 class="product__name">Classic Shirt</h1>
+                    <p class="product__price">â‚¹220</p>
+                </div>
+
+                <div class="seven" data-occasion="casuals" data-color="black" data-arrivals="new">
+                    <img src="./img/p21.webp" alt="">
+                    <h1 class="product__name">Casual Shirt</h1>
+                    <p class="product__price">â‚¹260</p>
+                </div>
+
+                <div class="seven" data-occasion="tshirts" data-color="white" data-arrivals="old">
+                    <img src="./img/p18.webp" alt="">
+                    <h1 class="product__name">White T-Shirt</h1>
+                    <p class="product__price">â‚¹399</p>
+                </div>
+
+                <div class="seven" data-occasion="casuals" data-color="black" data-arrivals="old">
+                    <img src="./img/p23.webp" alt="">
+                    <h1 class="product__name">Floral Casual Top</h1>
+                    <p class="product__price">â‚¹220</p>
+                </div>
+
+                <div class="seven" data-occasion="tshirts" data-color="white" data-arrivals="new">
+                    <img src="./img/p24.webp" alt="">
+                    <h1 class="product__name">Printed Casual T-Shirt</h1>
+                    <p class="product__price">â‚¹260</p>
+                </div>
+
+                <div class="seven" data-occasion="tshirts" data-color="black" data-arrivals="new">
+                    <img src="./img/p14.webp" alt="">
+                    <h1 class="product__name">Premium Black T-Shirt</h1>
+                    <p class="product__price">â‚¹399</p>
+                </div>
+
+                <div class="seven" data-occasion="tshirts" data-color="white" data-arrivals="new">
+                    <img src="./img/p16.webp" alt="">
+                    <h1 class="product__name">White Casual Hoodie</h1>
+                    <p class="product__price">â‚¹220</p>
+                </div>
+
+                <div class="seven" data-occasion="formals" data-color="blue" data-arrivals="new">
+                    <img src="./img/p20.webp" alt="">
+                    <h1 class="product__name">Blue Denim Formals</h1>
+                    <p class="product__price">â‚¹260</p>
+                </div>
+
+                <div class="seven" data-occasion="casuals" data-color="blue" data-arrivals="new">
+                    <img src="./img/p19.webp" alt="">
+                    <h1 class="product__name">Blue Casual Shirt</h1>
+                    <p class="product__price">â‚¹399</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!--section4-->
+    <section class="newsletter">
+        <h1 class="newsletter__title">Join Our News Letter</h1>
+        <p class="newsletter__text">Signup for our email newspaper to get exclusive
+            discounts, updates, and more</p>
+        <input type="email">
+        <button class="btn-subscribe">
+            Subscribe <i class="fa-solid fa-arrow-right-long fa-xs"></i>
+        </button>
+    </section>
+
+    <!--section5-->
+    <section class="footer">
+        <h1 class="footer__title">Nostra</h1>
+        <p class="footer__text">The Standard chunk of Lorem ipsum used since the 1500s is
+            reprodused below for those interest</p>
+        <div class="footer__social">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+        <p class="footer__copy">@ 2023 Nostra.com</p>
+    </section>
+
+    <script src="collections.js"></script>
+</body>
+
+</html>
+
